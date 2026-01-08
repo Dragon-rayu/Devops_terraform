@@ -1,6 +1,9 @@
 name: Test the github workflow
 
 on:
+    push:
+        branches:
+            - jelena_dev
     pull_request:
         branches:
             - main
